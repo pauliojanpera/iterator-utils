@@ -24,10 +24,10 @@ importers:
 
   packages/async:
     specifiers:
-      '@pauliojanpera/iterator-utils-common': ^0.0.17
+      '@pauliojanpera/iterator-utils-common': ^0.0.22
       '@pauliojanpera/pipe-operator': ^0.0.22
     dependencies:
-      '@pauliojanpera/iterator-utils-common': 0.0.17
+      '@pauliojanpera/iterator-utils-common': 0.0.22
     devDependencies:
       '@pauliojanpera/pipe-operator': 0.0.22
 
@@ -39,12 +39,12 @@ importers:
 
   packages/integration-test:
     specifiers:
-      '@pauliojanpera/iterator-utils-sync': ^0.0.9
+      '@pauliojanpera/iterator-utils-sync': ^0.0.12
       '@pauliojanpera/pipe-operator': ^0.0.22
       '@types/node': ^16.11.6
       typescript: ^4.4.4
     dependencies:
-      '@pauliojanpera/iterator-utils-sync': 0.0.9
+      '@pauliojanpera/iterator-utils-sync': 0.0.12
       '@pauliojanpera/pipe-operator': 0.0.22
     devDependencies:
       '@types/node': 16.11.6
@@ -52,10 +52,10 @@ importers:
 
   packages/sync:
     specifiers:
-      '@pauliojanpera/iterator-utils-common': ^0.0.17
+      '@pauliojanpera/iterator-utils-common': ^0.0.22
       '@pauliojanpera/pipe-operator': ^0.0.22
     dependencies:
-      '@pauliojanpera/iterator-utils-common': 0.0.17
+      '@pauliojanpera/iterator-utils-common': 0.0.22
     devDependencies:
       '@pauliojanpera/pipe-operator': 0.0.22
 
@@ -609,14 +609,14 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@pauliojanpera/iterator-utils-common/0.0.17:
-    resolution: {integrity: sha512-dYTkWIKWOLFZYRiBArESjf5C8fy6zJSnGBXmfknJe3PQfzJLFWMitZxlsSyJ7oxsZiCm7p3tfWGeMk2CrZ3T4A==}
+  /@pauliojanpera/iterator-utils-common/0.0.22:
+    resolution: {integrity: sha512-gizljuLJoR9aaz2PIy5UKftIEYdq1pHdGGwNDjF8ZqOMNUOyoKMFMl91e3yfSQ8HIOuVOGm5FTIvqGvEDZ/zKg==}
     dev: false
 
-  /@pauliojanpera/iterator-utils-sync/0.0.9:
-    resolution: {integrity: sha512-buc9fxfNY9MYMSFLFBYqWJId4PM0P/3KJn/utQZ5WDVOhmO4DEEEOpFX1tAeBHy3ehAMQ+jNFkKfRt0yjyWcqA==}
+  /@pauliojanpera/iterator-utils-sync/0.0.12:
+    resolution: {integrity: sha512-P5O3Sf87l1gg9S086zIx0K0IpNNA67mRxX1ocne3K0UtZymsYSDxUFKWBC99+AXF/U4vzh17xczJ5gO3jfvybQ==}
     dependencies:
-      '@pauliojanpera/iterator-utils-common': 0.0.17
+      '@pauliojanpera/iterator-utils-common': 0.0.22
     dev: false
 
   /@pauliojanpera/pipe-operator/0.0.22:

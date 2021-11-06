@@ -10,18 +10,18 @@
 	"copyright": "Pauli Ojanperä",
 	"license": "MIT",
 	"type": "module",
-	"main": ".dist/index.js",
+	"main": "dist/index.js",
 	"scripts": {
-		"demo": "pnpm build && node .dist/index.js",
+		"demo": "pnpm build && node dist/index.js",
 		"test": "NODE_OPTIONS=--experimental-vm-modules pnpm jest",
-		"build": "rm -rf .dist ; pnpm update @pauliojanpera/* --depth 0 --latest --filter=${npm_package_name} ; tsc"
+		"build": "rm -rf dist ; pnpm update @pauliojanpera/* --depth 0 --latest --filter=${npm_package_name} ; tsc"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.6",
 		"typescript": "^4.4.4"
 	},
 	"dependencies": {
-		"@pauliojanpera/iterator-utils-sync": "^0.0.9",
+		"@pauliojanpera/iterator-utils-sync": "^0.0.12",
 		"@pauliojanpera/pipe-operator": "^0.0.22"
 	}
 }
